@@ -1,2 +1,0 @@
-// use for DB configurations
-//
