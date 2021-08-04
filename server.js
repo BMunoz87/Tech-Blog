@@ -1,15 +1,12 @@
-const express = require('express');
-const routes = require('./routes');
-const sequelize = require('./Config/DatabaseConfiguration');
+const Sequelize = require('sequelize');
 
-const app = express();
-const PORT = process.env.PORT || 3001;
+require('dotenv').config();
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-
-app.use(routes);
-
-sequelize.sync({ force: true }).then(() => {
-    app.listen(PORT, () => console.log('Listening'));
+// create connection to our db
+const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PW, {
+    host: 'localhost',
+    dialect: 'mysql',
+    port: 3306
 });
+
+module.exports = sequelize;

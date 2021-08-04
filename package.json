@@ -1,17 +1,17 @@
 {
   "name": "tech-blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Badge",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:BMunoz87/Tech-Blog.git"
+    "url": "git+ssh://git@github.com/BMunoz87/Tech-Blog.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Brian Munoz",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/BMunoz87/Tech-Blog.git"
   },
@@ -25,5 +25,6 @@
     "express-session": "^1.17.2",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.5"
-  }
+  },
+  "devDependencies": {}
 }
