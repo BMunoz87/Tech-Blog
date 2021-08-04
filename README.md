@@ -79,7 +79,11 @@
 
 [xRitchie91](https://github.com/xRitchie91)
 [kotalilyy](https://github.com/kotalilyy)
-
+[kjmckinley](https://github.com/kjmckinley)
+[ShareeO](https://github.com/ShareeO)
+[MichealJWEllis](https://github.com/MichealJWEllis)
+  
+  
   Made By: Brian Munoz
 
   ### Mentions: 
